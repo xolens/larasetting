@@ -1,5 +1,5 @@
 {
-    "name": "xolens/larasetting",
+    "name": "xolens/pglarasetting",
     "description": "Laravel setting management package.",
     "type": "library",
     "license": "MIT",
@@ -8,26 +8,29 @@
         "email": "xolens.official@gmail.com"
     }],
     "require": {
-        "xolens/larautil": "1.0.0"
+        "xolens/pglarautil": "1.0.0",
+        "xolens/larautil-contract": "1.0.0",
+        "xolens/larasetting-contract": "dev-master"
     },
     "require-dev": {
-        "phpunit/phpunit": "^4"
+        "orchestra/testbench": "~3.4.0"
     },
     "autoload": {
         "classmap": [
             "src/"
-        ],
-        "psr-4": {
-            "Xolens\\Larasetting\\": "src/Larasetting",
-            "Xolens\\Larasetting\\Model\\": "src/Larasetting/Model/",
-            "Xolens\\Larasetting\\Util\\": "src/Larasetting/Util/"
-        }
+        ]
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Larasetting\\LarasettingServiceProvider"
+                "PgLarasetting\\PgLarasettingServiceProvider"
             ]
+        }
+    },
+    "repositories": {
+        "local": {
+            "type": "path",
+            "url": "/var/www/repositories/xolens.laravel/local/*"
         }
     }
 }

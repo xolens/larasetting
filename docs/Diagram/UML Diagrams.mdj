@@ -1,7 +1,7 @@
 {
 	"_type": "Project",
 	"_id": "AAAAAAFF+h6SjaM2Hec=",
-	"name": "Untitled",
+	"name": "Diagrams",
 	"ownedElements": [
 		{
 			"_type": "UMLModel",
@@ -9,7 +9,7 @@
 			"_parent": {
 				"$ref": "AAAAAAFF+h6SjaM2Hec="
 			},
-			"name": "Model",
+			"name": "UML",
 			"ownedElements": [
 				{
 					"_type": "UMLPackageDiagram",
@@ -76,7 +76,7 @@
 											"top": -80,
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -279,7 +279,7 @@
 											"top": 150,
 											"width": 983,
 											"height": 13,
-											"text": "Larasetting"
+											"text": "PgLarasetting"
 										},
 										{
 											"_type": "LabelView",
@@ -406,7 +406,7 @@
 											"top": -1000,
 											"width": 102.5908203125,
 											"height": 13,
-											"text": "(from Larasetting)"
+											"text": "(from PgLarasetting)"
 										},
 										{
 											"_type": "LabelView",
@@ -522,7 +522,7 @@
 											"top": -1024,
 											"width": 102.5908203125,
 											"height": 13,
-											"text": "(from Larasetting)"
+											"text": "(from PgLarasetting)"
 										},
 										{
 											"_type": "LabelView",
@@ -909,7 +909,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFlPPb4tCYwayU="
 									},
-									"name": "Larasetting",
+									"name": "PgLarasetting",
 									"ownedElements": [
 										{
 											"_type": "UMLPackage",
@@ -1010,7 +1010,7 @@
 											"top": 278,
 											"width": 255,
 											"height": 13,
-											"text": "Xolens.Larasetting.App.Util"
+											"text": "Xolens.PgLarasetting.App.Util"
 										},
 										{
 											"_type": "LabelView",
@@ -1024,7 +1024,7 @@
 											"top": 272,
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -1117,7 +1117,7 @@
 											"top": 663,
 											"width": 194.8095703125,
 											"height": 13,
-											"text": "LarasettingCreateTableSettings"
+											"text": "PgLarasettingCreateTableSettings"
 										},
 										{
 											"_type": "LabelView",
@@ -1131,7 +1131,7 @@
 											"top": 272,
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -1293,7 +1293,7 @@
 											"top": 295,
 											"width": 225.8623046875,
 											"height": 13,
-											"text": "LarasettingCreateTableEnumGroups"
+											"text": "PgLarasettingCreateTableEnumGroups"
 										},
 										{
 											"_type": "LabelView",
@@ -1307,7 +1307,7 @@
 											"top": 288,
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -1469,7 +1469,7 @@
 											"top": 399,
 											"width": 213.5986328125,
 											"height": 13,
-											"text": "LarasettingCreateTableEnumItems"
+											"text": "PgLarasettingCreateTableEnumItems"
 										},
 										{
 											"_type": "LabelView",
@@ -1483,7 +1483,7 @@
 											"top": 496,
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -1645,7 +1645,7 @@
 											"top": 319,
 											"width": 128.5654296875,
 											"height": 13,
-											"text": "LarasettingMigration"
+											"text": "PgLarasettingMigration"
 										},
 										{
 											"_type": "LabelView",
@@ -1659,7 +1659,7 @@
 											"top": -352,
 											"width": 195.08251953125,
 											"height": 13,
-											"text": "(from Xolens.Larasetting.App.Util)"
+											"text": "(from Xolens.PgLarasetting.App.Util)"
 										},
 										{
 											"_type": "LabelView",
@@ -1877,7 +1877,7 @@
 											"top": 495,
 											"width": 314.208984375,
 											"height": 13,
-											"text": "LarasettingCreateApplyIdentifiableTriggerFunction"
+											"text": "PgLarasettingCreateApplyIdentifiableTriggerFunction"
 										},
 										{
 											"_type": "LabelView",
@@ -1891,7 +1891,7 @@
 											"top": -16,
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -2053,7 +2053,7 @@
 											"top": 591,
 											"width": 270.1435546875,
 											"height": 13,
-											"text": "LarasettingCreateApplyIdentifiableFunction"
+											"text": "PgLarasettingCreateApplyIdentifiableFunction"
 										},
 										{
 											"_type": "LabelView",
@@ -2067,7 +2067,7 @@
 											"top": 160,
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -2229,7 +2229,7 @@
 											"top": 599,
 											"width": 202.2744140625,
 											"height": 13,
-											"text": "LarasettingCreateDomainTrigger"
+											"text": "PgLarasettingCreateDomainTrigger"
 										},
 										{
 											"_type": "LabelView",
@@ -2243,7 +2243,7 @@
 											"top": -32,
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -2405,7 +2405,7 @@
 											"top": 503,
 											"width": 328.67529296875,
 											"height": 13,
-											"text": "LarasettingCreateRemoveIdentifiableTriggerFunction"
+											"text": "PgLarasettingCreateRemoveIdentifiableTriggerFunction"
 										},
 										{
 											"_type": "LabelView",
@@ -2419,7 +2419,7 @@
 											"top": -304,
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -2581,7 +2581,7 @@
 											"top": 95,
 											"width": 278.09716796875,
 											"height": 13,
-											"text": "LarasettingCreateIdentifiableTriggerFunction"
+											"text": "PgLarasettingCreateIdentifiableTriggerFunction"
 										},
 										{
 											"_type": "LabelView",
@@ -2595,7 +2595,7 @@
 											"top": -656,
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -2757,7 +2757,7 @@
 											"top": 327,
 											"width": 284.60986328125,
 											"height": 13,
-											"text": "LarasettingCreateRemoveIdentifiableFunction"
+											"text": "PgLarasettingCreateRemoveIdentifiableFunction"
 										},
 										{
 											"_type": "LabelView",
@@ -2771,7 +2771,7 @@
 											"top": -624,
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -2933,7 +2933,7 @@
 											"top": 111,
 											"width": 286.583984375,
 											"height": 13,
-											"text": "LarasettingCreateTableIdentifiablePreferences"
+											"text": "PgLarasettingCreateTableIdentifiablePreferences"
 										},
 										{
 											"_type": "LabelView",
@@ -2947,7 +2947,7 @@
 											"top": -288,
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -3109,7 +3109,7 @@
 											"top": 239,
 											"width": 181.314453125,
 											"height": 13,
-											"text": "LarasettingAddForeignsKeys"
+											"text": "PgLarasettingAddForeignsKeys"
 										},
 										{
 											"_type": "LabelView",
@@ -3123,7 +3123,7 @@
 											"top": -304,
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -3285,7 +3285,7 @@
 											"top": 431,
 											"width": 217.9658203125,
 											"height": 13,
-											"text": "LarasettingCreateTablePreferences"
+											"text": "PgLarasettingCreateTablePreferences"
 										},
 										{
 											"_type": "LabelView",
@@ -3299,7 +3299,7 @@
 											"top": 560,
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -3460,7 +3460,7 @@
 											"top": 47,
 											"width": 198.427734375,
 											"height": 13,
-											"text": "LarasettingCreateTableDomains"
+											"text": "PgLarasettingCreateTableDomains"
 										},
 										{
 											"_type": "LabelView",
@@ -3473,7 +3473,7 @@
 											"left": -256,
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -3632,7 +3632,7 @@
 											"top": 79,
 											"width": 221.8125,
 											"height": 13,
-											"text": "LarasettingCreatePreferenceTrigger"
+											"text": "PgLarasettingCreatePreferenceTrigger"
 										},
 										{
 											"_type": "LabelView",
@@ -3646,7 +3646,7 @@
 											"top": -448,
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -5089,7 +5089,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Xolens.Larasetting  Class Diagram",
+					"name": "Xolens.PgLarasetting  Class Diagram",
 					"ownedViews": [
 						{
 							"_type": "UMLClassView",
@@ -5134,7 +5134,7 @@
 											"top": 263,
 											"width": 169.076171875,
 											"height": 13,
-											"text": "LarasettingServiceProvider"
+											"text": "PgLarasettingServiceProvider"
 										},
 										{
 											"_type": "LabelView",
@@ -5148,7 +5148,7 @@
 											"top": 80,
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -5360,7 +5360,7 @@
 											"top": -16,
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -5691,7 +5691,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Xolens.Larasetting.App.Util Class Diagram",
+					"name": "Xolens.PgLarasetting.App.Util Class Diagram",
 					"ownedViews": [
 						{
 							"_type": "UMLClassView",
@@ -5734,7 +5734,7 @@
 											"top": 255,
 											"width": 128.5654296875,
 											"height": 13,
-											"text": "LarasettingMigration"
+											"text": "PgLarasettingMigration"
 										},
 										{
 											"_type": "LabelView",
@@ -5746,7 +5746,7 @@
 											"font": "Arial;13;0",
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -5900,7 +5900,7 @@
 											"top": 447,
 											"width": 181.3017578125,
 											"height": 13,
-											"text": "AbstractLarasettingMigration"
+											"text": "AbstractPgLarasettingMigration"
 										},
 										{
 											"_type": "LabelView",
@@ -5912,7 +5912,7 @@
 											"font": "Arial;13;0",
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -6255,7 +6255,7 @@
 											"top": 182,
 											"width": 263,
 											"height": 13,
-											"text": "Xolens.Larautil.App.Util"
+											"text": "Xolens.PgLarautil.App.Util"
 										},
 										{
 											"_type": "LabelView",
@@ -6268,7 +6268,7 @@
 											"left": -128,
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -6360,7 +6360,7 @@
 											"top": 247,
 											"width": 158.18359375,
 											"height": 13,
-											"text": "AbstractLarautilMigration"
+											"text": "AbstractPgLarautilMigration"
 										},
 										{
 											"_type": "LabelView",
@@ -6374,7 +6374,7 @@
 											"top": -432,
 											"width": 173.39892578125,
 											"height": 13,
-											"text": "(from Xolens.Larautil.App.Util)"
+											"text": "(from Xolens.PgLarautil.App.Util)"
 										},
 										{
 											"_type": "LabelView",
@@ -6504,7 +6504,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Xolens.Larasetting.App.Model Class Diagram",
+					"name": "Xolens.PgLarasetting.App.Model Class Diagram",
 					"ownedViews": [
 						{
 							"_type": "UMLClassView",
@@ -6563,7 +6563,7 @@
 											"top": 224,
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -6792,7 +6792,7 @@
 											"top": -96,
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -7038,7 +7038,7 @@
 											"top": -576,
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -7284,7 +7284,7 @@
 											"top": -160,
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -7547,7 +7547,7 @@
 											"top": 112,
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -7923,9 +7923,9 @@
 										"$ref": "AAAAAAFlPXKdtC5Mt9s="
 									},
 									"font": "Arial;13;0",
-									"left": 162,
+									"left": 161,
 									"top": 448,
-									"width": 5.05908203125,
+									"width": 6.5,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 25,
@@ -8064,7 +8064,7 @@
 											"top": -368,
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -8259,7 +8259,7 @@
 											"top": -40,
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -8590,9 +8590,9 @@
 										"$ref": "AAAAAAFlPXOeoC7OyVA="
 									},
 									"font": "Arial;13;0",
-									"left": 300,
+									"left": 299,
 									"top": 461,
-									"width": 5.05908203125,
+									"width": 6.5,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 25,
@@ -8880,9 +8880,9 @@
 										"$ref": "AAAAAAFlPXW4VjOzXLY="
 									},
 									"font": "Arial;13;0",
-									"left": 246,
+									"left": 245,
 									"top": 131,
-									"width": 5.05908203125,
+									"width": 6.5,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 25,
@@ -9027,100 +9027,6 @@
 							"headQualifiersCompartment": {
 								"$ref": "AAAAAAFlPXW4VzPBcyY="
 							}
-						},
-						{
-							"_type": "UMLGeneralizationView",
-							"_id": "AAAAAAFlPXaqnDXURxU=",
-							"_parent": {
-								"$ref": "AAAAAAFlPVIXlSdECbo="
-							},
-							"model": {
-								"$ref": "AAAAAAFlPXaqnDXSKiA="
-							},
-							"subViews": [
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAFlPXaqnTXVz8Q=",
-									"_parent": {
-										"$ref": "AAAAAAFlPXaqnDXURxU="
-									},
-									"model": {
-										"$ref": "AAAAAAFlPXaqnDXSKiA="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"left": 316,
-									"top": 290,
-									"height": 13,
-									"alpha": 1.5707963267948966,
-									"distance": 15,
-									"hostEdge": {
-										"$ref": "AAAAAAFlPXaqnDXURxU="
-									},
-									"edgePosition": 1
-								},
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAFlPXaqnTXWj8k=",
-									"_parent": {
-										"$ref": "AAAAAAFlPXaqnDXURxU="
-									},
-									"model": {
-										"$ref": "AAAAAAFlPXaqnDXSKiA="
-									},
-									"visible": null,
-									"font": "Arial;13;0",
-									"left": 316,
-									"top": 275,
-									"height": 13,
-									"alpha": 1.5707963267948966,
-									"distance": 30,
-									"hostEdge": {
-										"$ref": "AAAAAAFlPXaqnDXURxU="
-									},
-									"edgePosition": 1
-								},
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAFlPXaqnTXXj48=",
-									"_parent": {
-										"$ref": "AAAAAAFlPXaqnDXURxU="
-									},
-									"model": {
-										"$ref": "AAAAAAFlPXaqnDXSKiA="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"left": 317,
-									"top": 319,
-									"height": 13,
-									"alpha": -1.5707963267948966,
-									"distance": 15,
-									"hostEdge": {
-										"$ref": "AAAAAAFlPXaqnDXURxU="
-									},
-									"edgePosition": 1
-								}
-							],
-							"font": "Arial;13;0",
-							"head": {
-								"$ref": "AAAAAAFlPXNt4S6PRV8="
-							},
-							"tail": {
-								"$ref": "AAAAAAFlPWwInizU7os="
-							},
-							"lineStyle": 1,
-							"points": "220:313;415:309",
-							"showVisibility": true,
-							"nameLabel": {
-								"$ref": "AAAAAAFlPXaqnTXVz8Q="
-							},
-							"stereotypeLabel": {
-								"$ref": "AAAAAAFlPXaqnTXWj8k="
-							},
-							"propertyLabel": {
-								"$ref": "AAAAAAFlPXaqnTXXj48="
-							}
 						}
 					]
 				},
@@ -9130,7 +9036,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Xolens.Larasetting.App.Repository Class Diagram",
+					"name": "Xolens.PgLarasetting.App.Repository Class Diagram",
 					"ownedViews": [
 						{
 							"_type": "UMLClassView",
@@ -9189,7 +9095,7 @@
 											"top": 112,
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -9361,7 +9267,7 @@
 											"font": "Arial;13;0",
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -9476,172 +9382,6 @@
 						},
 						{
 							"_type": "UMLClassView",
-							"_id": "AAAAAAFlPXn3HT0XJwU=",
-							"_parent": {
-								"$ref": "AAAAAAFlPVJrWidIGsw="
-							},
-							"model": {
-								"$ref": "AAAAAAFlPXn3HT0VHYs="
-							},
-							"subViews": [
-								{
-									"_type": "UMLNameCompartmentView",
-									"_id": "AAAAAAFlPXn3HT0YO+s=",
-									"_parent": {
-										"$ref": "AAAAAAFlPXn3HT0XJwU="
-									},
-									"model": {
-										"$ref": "AAAAAAFlPXn3HT0VHYs="
-									},
-									"subViews": [
-										{
-											"_type": "LabelView",
-											"_id": "AAAAAAFlPXn3HT0ZiZE=",
-											"_parent": {
-												"$ref": "AAAAAAFlPXn3HT0YO+s="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"height": 13
-										},
-										{
-											"_type": "LabelView",
-											"_id": "AAAAAAFlPXn3HT0a2WM=",
-											"_parent": {
-												"$ref": "AAAAAAFlPXn3HT0YO+s="
-											},
-											"font": "Arial;13;1",
-											"left": 469,
-											"top": 287,
-											"width": 203.72802734375,
-											"height": 13,
-											"text": "IdentifiablePreferenceRepository"
-										},
-										{
-											"_type": "LabelView",
-											"_id": "AAAAAAFlPXn3HT0byBE=",
-											"_parent": {
-												"$ref": "AAAAAAFlPXn3HT0YO+s="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"width": 73.67724609375,
-											"height": 13,
-											"text": "(from Model)"
-										},
-										{
-											"_type": "LabelView",
-											"_id": "AAAAAAFlPXn3HT0cdWw=",
-											"_parent": {
-												"$ref": "AAAAAAFlPXn3HT0YO+s="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"height": 13,
-											"horizontalAlignment": 1
-										}
-									],
-									"font": "Arial;13;0",
-									"left": 464,
-									"top": 280,
-									"width": 213.72802734375,
-									"height": 25,
-									"stereotypeLabel": {
-										"$ref": "AAAAAAFlPXn3HT0ZiZE="
-									},
-									"nameLabel": {
-										"$ref": "AAAAAAFlPXn3HT0a2WM="
-									},
-									"namespaceLabel": {
-										"$ref": "AAAAAAFlPXn3HT0byBE="
-									},
-									"propertyLabel": {
-										"$ref": "AAAAAAFlPXn3HT0cdWw="
-									}
-								},
-								{
-									"_type": "UMLAttributeCompartmentView",
-									"_id": "AAAAAAFlPXn3HT0dcb8=",
-									"_parent": {
-										"$ref": "AAAAAAFlPXn3HT0XJwU="
-									},
-									"model": {
-										"$ref": "AAAAAAFlPXn3HT0VHYs="
-									},
-									"font": "Arial;13;0",
-									"left": 464,
-									"top": 305,
-									"width": 213.72802734375,
-									"height": 10
-								},
-								{
-									"_type": "UMLOperationCompartmentView",
-									"_id": "AAAAAAFlPXn3Hj0e1dg=",
-									"_parent": {
-										"$ref": "AAAAAAFlPXn3HT0XJwU="
-									},
-									"model": {
-										"$ref": "AAAAAAFlPXn3HT0VHYs="
-									},
-									"font": "Arial;13;0",
-									"left": 464,
-									"top": 315,
-									"width": 213.72802734375,
-									"height": 10
-								},
-								{
-									"_type": "UMLReceptionCompartmentView",
-									"_id": "AAAAAAFlPXn3Hj0foY8=",
-									"_parent": {
-										"$ref": "AAAAAAFlPXn3HT0XJwU="
-									},
-									"model": {
-										"$ref": "AAAAAAFlPXn3HT0VHYs="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"width": 10,
-									"height": 10
-								},
-								{
-									"_type": "UMLTemplateParameterCompartmentView",
-									"_id": "AAAAAAFlPXn3Hj0g+5M=",
-									"_parent": {
-										"$ref": "AAAAAAFlPXn3HT0XJwU="
-									},
-									"model": {
-										"$ref": "AAAAAAFlPXn3HT0VHYs="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"width": 10,
-									"height": 10
-								}
-							],
-							"font": "Arial;13;0",
-							"containerChangeable": true,
-							"left": 464,
-							"top": 280,
-							"width": 213.72802734375,
-							"height": 45,
-							"nameCompartment": {
-								"$ref": "AAAAAAFlPXn3HT0YO+s="
-							},
-							"attributeCompartment": {
-								"$ref": "AAAAAAFlPXn3HT0dcb8="
-							},
-							"operationCompartment": {
-								"$ref": "AAAAAAFlPXn3Hj0e1dg="
-							},
-							"receptionCompartment": {
-								"$ref": "AAAAAAFlPXn3Hj0foY8="
-							},
-							"templateParameterCompartment": {
-								"$ref": "AAAAAAFlPXn3Hj0g+5M="
-							}
-						},
-						{
-							"_type": "UMLClassView",
 							"_id": "AAAAAAFlPXn6Aj1Ar9A=",
 							"_parent": {
 								"$ref": "AAAAAAFlPVJrWidIGsw="
@@ -9697,7 +9437,7 @@
 											"top": 176,
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -9873,7 +9613,7 @@
 											"top": 176,
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -10045,7 +9785,7 @@
 											"font": "Arial;13;0",
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -10166,7 +9906,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Xolens.Larasetting.Test Class Diagram",
+					"name": "Xolens.PgLarasetting.Test Class Diagram",
 					"ownedViews": [
 						{
 							"_type": "UMLClassView",
@@ -10225,7 +9965,7 @@
 											"top": -32,
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -10401,7 +10141,7 @@
 											"top": -32,
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -10577,7 +10317,7 @@
 											"top": 304,
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -10753,7 +10493,7 @@
 											"top": -16,
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -10925,7 +10665,7 @@
 											"font": "Arial;13;0",
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -11095,7 +10835,7 @@
 											"top": -480,
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -11271,7 +11011,7 @@
 											"top": -304,
 											"width": 73.67724609375,
 											"height": 13,
-											"text": "(from Model)"
+											"text": "(from UML)"
 										},
 										{
 											"_type": "LabelView",
@@ -12072,7 +11812,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Xolens.Larasetting.App.Util",
+					"name": "Xolens.PgLarasetting.App.Util",
 					"ownedElements": [
 						{
 							"_type": "UMLClass",
@@ -12080,7 +11820,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFlPVS5ESdQz1A="
 							},
-							"name": "LarasettingMigration",
+							"name": "PgLarasettingMigration",
 							"operations": [
 								{
 									"_type": "UMLOperation",
@@ -12116,7 +11856,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "LarasettingCreateTableSettings",
+					"name": "PgLarasettingCreateTableSettings",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -12139,7 +11879,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "LarasettingCreateTableEnumGroups",
+					"name": "PgLarasettingCreateTableEnumGroups",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -12162,7 +11902,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "LarasettingCreateTableEnumItems",
+					"name": "PgLarasettingCreateTableEnumItems",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -12185,7 +11925,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "LarasettingCreateApplyIdentifiableTriggerFunction",
+					"name": "PgLarasettingCreateApplyIdentifiableTriggerFunction",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -12208,7 +11948,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "LarasettingCreateApplyIdentifiableFunction",
+					"name": "PgLarasettingCreateApplyIdentifiableFunction",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -12231,7 +11971,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "LarasettingCreateDomainTrigger",
+					"name": "PgLarasettingCreateDomainTrigger",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -12254,7 +11994,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "LarasettingCreateRemoveIdentifiableTriggerFunction",
+					"name": "PgLarasettingCreateRemoveIdentifiableTriggerFunction",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -12277,7 +12017,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "LarasettingCreateIdentifiableTriggerFunction",
+					"name": "PgLarasettingCreateIdentifiableTriggerFunction",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -12300,7 +12040,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "LarasettingCreateRemoveIdentifiableFunction",
+					"name": "PgLarasettingCreateRemoveIdentifiableFunction",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -12323,7 +12063,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "LarasettingCreateTableIdentifiablePreferences",
+					"name": "PgLarasettingCreateTableIdentifiablePreferences",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -12346,7 +12086,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "LarasettingAddForeignsKeys",
+					"name": "PgLarasettingAddForeignsKeys",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -12369,7 +12109,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "LarasettingCreateTablePreferences",
+					"name": "PgLarasettingCreateTablePreferences",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -12392,7 +12132,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "LarasettingCreateTableDomains",
+					"name": "PgLarasettingCreateTableDomains",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -12415,7 +12155,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "LarasettingCreatePreferenceTrigger",
+					"name": "PgLarasettingCreatePreferenceTrigger",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -12438,7 +12178,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "LarasettingServiceProvider",
+					"name": "PgLarasettingServiceProvider",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -12497,7 +12237,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "LarasettingMigration",
+					"name": "PgLarasettingMigration",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -12520,7 +12260,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "AbstractLarasettingMigration",
+					"name": "AbstractPgLarasettingMigration",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
@@ -12543,7 +12283,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Xolens.Larautil.App.Util",
+					"name": "Xolens.PgLarautil.App.Util",
 					"ownedElements": [
 						{
 							"_type": "UMLClass",
@@ -12551,7 +12291,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFlPWoOXSy0hK8="
 							},
-							"name": "AbstractLarautilMigration"
+							"name": "AbstractPgLarautilMigration"
 						}
 					]
 				},
@@ -12590,19 +12330,6 @@
 									"$ref": "AAAAAAFlPWwVpi1224I="
 								},
 								"multiplicity": "*"
-							}
-						},
-						{
-							"_type": "UMLGeneralization",
-							"_id": "AAAAAAFlPXaqnDXSKiA=",
-							"_parent": {
-								"$ref": "AAAAAAFlPWwInizSGlk="
-							},
-							"source": {
-								"$ref": "AAAAAAFlPWwInizSGlk="
-							},
-							"target": {
-								"$ref": "AAAAAAFlPXNt4S6NJlM="
 							}
 						}
 					],
@@ -13003,14 +12730,6 @@
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
 					"name": "DomainRepository"
-				},
-				{
-					"_type": "UMLClass",
-					"_id": "AAAAAAFlPXn3HT0VHYs=",
-					"_parent": {
-						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
-					},
-					"name": "IdentifiablePreferenceRepository"
 				},
 				{
 					"_type": "UMLClass",
