@@ -5,10 +5,8 @@ namespace Xolens\PgLarasetting\App\Model;
 use Illuminate\Database\Eloquent\Model;
 
 use PgLarasettingCreateTableSettings;
-use SettingManagementContract\Model\SettingContract;
 
-
-class Setting extends Model implements SettingContract
+class Setting extends Model
 {
     public $timestamps = false;
 
@@ -28,9 +26,9 @@ class Setting extends Model implements SettingContract
      */
     protected $table;
     
-    function __construct() {
+    function __construct(array $attributes = []) {
         $this->table = PgLarasettingCreateTableSettings::table();
-        parent::__construct();
+        parent::__construct($attributes);
     }
 
     public function getId(){

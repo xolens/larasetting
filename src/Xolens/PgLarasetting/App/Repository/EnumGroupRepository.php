@@ -3,11 +3,12 @@
 namespace Xolens\PgLarasetting\App\Repository;
 
 use Xolens\PgLarasetting\App\Model\EnumGroup;
-use SettingManagementContract\Repository\EnumGroupRepoContract;
+use Xolens\LarasettingContract\App\Repository\Contract\EnumGroupRepositoryContract;
+use Xolens\PgLarautil\App\Repository\AbstractWritableRepository;
 
-class EnumGroupRepository implements EnumGroupRepoContract
+class EnumGroupRepository extends AbstractWritableRepository implements EnumGroupRepositoryContract
 {
-    public static function model(){
+    public function model(){
         return EnumGroup::class;
     }
     

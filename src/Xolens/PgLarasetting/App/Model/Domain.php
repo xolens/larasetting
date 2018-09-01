@@ -29,33 +29,18 @@ class Domain extends Model
      */
     protected $table;
     
-    function __construct() {
+    function __construct(array $attributes = []) {
         $this->table = PgLarasettingCreateTableDomains::table();
-        parent::__construct();
+        parent::__construct($attributes);
     }
     
     public function preferences()
     {
-        return $this->hasMany('Xolens\PgLarasetting\App\Model\Preference','id_domain');
+        return $this->hasMany('Xolens\PgLarasetting\App\Model\Preference','domain_id');
     }
 
     public function getId(){
         return $this->id;
     }
 
-    public function getTableName(){
-        return $this->table_name;
-    }
-
-    public function getModel(){
-        return $this->model;
-    }
-    
-    public function setTableName($tableName){
-        $this->table_name = $tableName;
-    }
-
-    public function setModel($model){
-        $this->model = $model;
-    }
 }

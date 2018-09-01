@@ -13,8 +13,18 @@
         <env name="DB_PASSWORD" value="minefopstat"/>
     </php>
     <testsuites>
+        <testsuite name="reset-migration">
+            <file>src/Xolens/PgLarasetting/Test/ResetMigrationTest.php</file>
+        </testsuite> 
         <testsuite name="test-package">
-        <directory>src/Xolens/PgLarasetting/Test/Repository</directory>
+            <file>src/Xolens/PgLarasetting/Test/Repository/SettingRepositoryTest.php</file>
+
+            <file>src/Xolens/PgLarasetting/Test/Repository/EnumGroupRepositoryTest.php</file>
+            <file>src/Xolens/PgLarasetting/Test/Repository/EnumItemRepositoryTest.php</file>
+            
+            <file>src/Xolens/PgLarasetting/Test/Repository/DomainRepositoryTest.php</file>
+            <file>src/Xolens/PgLarasetting/Test/Repository/PreferenceRepositoryTest.php</file>
+            <file>src/Xolens/PgLarasetting/Test/Repository/IdentifiablePreferenceRepositoryTest.php</file>
         </testsuite>
     </testsuites>
 </phpunit>

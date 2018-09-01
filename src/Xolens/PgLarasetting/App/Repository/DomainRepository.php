@@ -3,11 +3,12 @@
 namespace Xolens\PgLarasetting\App\Repository;
 
 use Xolens\PgLarasetting\App\Model\Domain;
-use SettingManagementContract\Repository\DomainRepoContract;
+use Xolens\LarasettingContract\App\Repository\Contract\DomainRepositoryContract;
+use Xolens\PgLarautil\App\Repository\AbstractWritableRepository;
 
-class DomainRepository implements DomainRepoContract
+class DomainRepository extends AbstractWritableRepository implements DomainRepositoryContract
 {
-    public static function model(){
+    public function model(){
         return Domain::class;
     }
     

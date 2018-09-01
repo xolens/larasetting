@@ -28,7 +28,8 @@ class PgLarasettingCreateTableEnumItems extends PgLarasettingMigration
             $table->increments('id');
             $table->string('label');
             $table->string('value')->nullable();
-            $table->integer('id_enum_group')->index();
+            $table->integer('enum_group_id')->index();
+            $table->unique(['label', 'enum_group_id']);
         });
         if(self::logEnabled()){
             self::registerForLog();

@@ -5,11 +5,11 @@ namespace Xolens\PgLarasetting\App\Model;
 use Illuminate\Database\Eloquent\Model;
 
 use PgLarasettingCreateTableEnumItems;
-use SettingManagementContract\Model\EnumItemContract;
 
-
-class EnumItem extends Model implements EnumItemContract
+class EnumItem extends Model
 {
+    public const ENUM_GROUP_PROPERTY = 'enum_group_id';
+   
     public $timestamps = false;
 
     /**
@@ -18,7 +18,7 @@ class EnumItem extends Model implements EnumItemContract
      * @var array
      */
     protected $fillable = [
-        'id','label','value','id_enum_group'
+        'id','label','value','enum_group_id'
     ];
 
     /**
@@ -28,14 +28,14 @@ class EnumItem extends Model implements EnumItemContract
      */
     protected $table;
     
-    function __construct() {
+    function __construct(array $attributes = []) {
         $this->table = PgLarasettingCreateTableEnumItems::table();
-        parent::__construct();
+        parent::__construct($attributes);
     }
     
     public function enumGroup()
     {
-        return $this->belongsTo('Xolens\PgLarasetting\App\Model\EnumGroup','id_enum_group');
+        return $this->belongsTo('Xolens\PgLarasetting\App\Model\EnumGroup','enum_group_id');
     } 
 
     public function getId(){

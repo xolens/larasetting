@@ -56,10 +56,10 @@ class PgLarasettingCreatePreferenceTrigger extends PgLarasettingMigration
                             __identifiable_domain_id,
                             __identifiable_domain_model
                         FROM ".PgLarasettingCreateTableDomains::table()."
-                        WHERE id = OLD.id_domain;
+                        WHERE id = OLD.domain_id;
 
                         DELETE FROM ".PgLarasettingCreateTableIdentifiablePreferences::table()."
-                        WHERE id_preference = OLD.id;
+                        WHERE preference_id = OLD.id;
 
                     END IF;
 
@@ -73,10 +73,10 @@ class PgLarasettingCreatePreferenceTrigger extends PgLarasettingMigration
                             __identifiable_domain_table,
                             __identifiable_domain_model
                         FROM ".PgLarasettingCreateTableDomains::table()."
-                        WHERE id = NEW.id_domain;
+                        WHERE id = NEW.domain_id;
 
                         EXECUTE format('
-                            INSERT INTO ".PgLarasettingCreateTableIdentifiablePreferences::table()."(identifiable_id, id_preference, preference_value, identifiable_model)(
+                            INSERT INTO ".PgLarasettingCreateTableIdentifiablePreferences::table()."(identifiable_id, preference_id, preference_value, identifiable_model)(
                                 SELECT 
                                     %s.id, 
                                     $1,

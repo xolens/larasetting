@@ -29,7 +29,7 @@ class PgLarasettingCreateTablePreferences extends PgLarasettingMigration
             $table->string('name')->unique();
             $table->string('description')->nullable();
             $table->string('default')->nullable();
-            $table->integer('id_domain')->index();
+            $table->integer('domain_id')->index();
         });
         if(self::logEnabled()){
             self::registerForLog();

@@ -25,13 +25,13 @@ class PgLarasettingAddForeignsKeys extends PgLarasettingMigration
     public function up()
     {
         Schema::table(PgLarasettingCreateTableEnumItems::table(), function (Blueprint $table) {
-            $table->foreign('id_enum_group')->references('id')->on(PgLarasettingCreateTableEnumGroups::table())->onDelete('cascade');      
+            $table->foreign('enum_group_id')->references('id')->on(PgLarasettingCreateTableEnumGroups::table())->onDelete('cascade');      
         });
         Schema::table(PgLarasettingCreateTableIdentifiablePreferences::table(), function (Blueprint $table) {
-            $table->foreign('id_preference')->references('id')->on(PgLarasettingCreateTablePreferences::table())->onDelete('cascade');      
+            $table->foreign('preference_id')->references('id')->on(PgLarasettingCreateTablePreferences::table())->onDelete('cascade');      
         });
         Schema::table(PgLarasettingCreateTablePreferences::table(), function (Blueprint $table) {
-            $table->foreign('id_domain')->references('id')->on(PgLarasettingCreateTableDomains::table())->onDelete('cascade');      
+            $table->foreign('domain_id')->references('id')->on(PgLarasettingCreateTableDomains::table())->onDelete('cascade');      
         });
     }
 
@@ -43,13 +43,13 @@ class PgLarasettingAddForeignsKeys extends PgLarasettingMigration
     public function down()
     {
         Schema::table(PgLarasettingCreateTablePreferences::table(), function (Blueprint $table) {
-            $table->dropForeign(['id_domain']);      
+            $table->dropForeign(['domain_id']);      
         });
         Schema::table(PgLarasettingCreateTableIdentifiablePreferences::table(), function (Blueprint $table) {
-            $table->dropForeign(['id_preference']);      
+            $table->dropForeign(['preference_id']);      
         });
         Schema::table(PgLarasettingCreateTableEnumItems::table(), function (Blueprint $table) {
-            $table->dropForeign(['id_enum_group']);      
+            $table->dropForeign(['enum_group_id']);      
         });
     }
 }

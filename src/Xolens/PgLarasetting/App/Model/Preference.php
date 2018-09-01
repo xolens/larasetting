@@ -5,11 +5,11 @@ namespace Xolens\PgLarasetting\App\Model;
 use Illuminate\Database\Eloquent\Model;
 
 use PgLarasettingCreateTablePreferences;
-use SettingManagementContract\Model\PreferenceContract;
 
-
-class Preference extends Model implements PreferenceContract
+class Preference extends Model
 {
+    public const DOMAIN_PROPERTY = 'domain_id';
+    
     public $timestamps = false;
 
     /**
@@ -18,7 +18,7 @@ class Preference extends Model implements PreferenceContract
      * @var array
      */
     protected $fillable = [
-        'id','name','description','default','id_domain'
+        'id','name','description','default','domain_id'
     ];
 
     /**
@@ -28,19 +28,19 @@ class Preference extends Model implements PreferenceContract
      */
     protected $table;
     
-    function __construct() {
+    function __construct(array $attributes = []) {
         $this->table = PgLarasettingCreateTablePreferences::table();
-        parent::__construct();
+        parent::__construct($attributes);
     }
     
     public function domain()
     {
-        return $this->belongsTo('Xolens\PgLarasetting\App\Model\Domain','id_domain');
+        return $this->belongsTo('Xolens\PgLarasetting\App\Model\Domain','domain_id');
     } 
     
     public function identifiablePreference()
     {
-        return $this->hasMany('Xolens\PgLarasetting\App\Model\IdentifiablePreference','id_preference');
+        return $this->hasMany('Xolens\PgLarasetting\App\Model\IdentifiablePreference','preference_id');
     }
 
     public function getId(){

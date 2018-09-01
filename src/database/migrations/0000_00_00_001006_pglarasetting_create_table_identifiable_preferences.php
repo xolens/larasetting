@@ -30,8 +30,8 @@ class PgLarasettingCreateTableIdentifiablePreferences extends PgLarasettingMigra
             $table->string('identifiable_model');
             $table->integer('identifiable_id');
           
-            $table->integer('id_preference')->index();
-            $table->unique(['id_preference', 'identifiable_id']);
+            $table->integer('preference_id')->index();
+            $table->unique(['preference_id', 'identifiable_id']);
         });
         if(self::logEnabled()){
             self::registerForLog();

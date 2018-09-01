@@ -5,11 +5,12 @@ namespace Xolens\PgLarasetting\App\Model;
 use Illuminate\Database\Eloquent\Model;
 
 use PgLarasettingCreateTableIdentifiablePreferences;
-use SettingManagementContract\Model\IdentifiablePreferenceContract;
 
-
-class IdentifiablePreference extends Model implements IdentifiablePreferenceContract
+class IdentifiablePreference extends Model
 {
+    public const PREFERENCE_PROPERTY = 'preference_id';
+    public const IDENTIFIABLE_PROPERTY = 'identifiable_id';
+
     public $timestamps = false;
 
     /**
@@ -18,7 +19,7 @@ class IdentifiablePreference extends Model implements IdentifiablePreferenceCont
      * @var array
      */
     protected $fillable = [
-        'id','preference_value','identifiable_model','identifiable_id','id_preference'
+        'id','preference_value','identifiable_model','identifiable_id','preference_id'
     ];
 
     /**
@@ -28,14 +29,14 @@ class IdentifiablePreference extends Model implements IdentifiablePreferenceCont
      */
     protected $table;
     
-    function __construct() {
+    function __construct(array $attributes = []) {
         $this->table = PgLarasettingCreateTableIdentifiablePreferences::table();
-        parent::__construct();
+        parent::__construct($attributes);
     }
     
     public function preference()
     {
-        return $this->belongsTo('Xolens\PgLarasetting\App\Model\Preference','id_preference');
+        return $this->belongsTo('Xolens\PgLarasetting\App\Model\Preference','preference_id');
     } 
 
     public function getId(){

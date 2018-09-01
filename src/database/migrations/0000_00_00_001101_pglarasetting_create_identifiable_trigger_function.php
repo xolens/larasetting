@@ -58,21 +58,21 @@ class PgLarasettingCreateIdentifiableTriggerFunction extends PgLarasettingMigrat
 
                     IF __do_delete THEN
                         DELETE FROM ".PgLarasettingCreateTableIdentifiablePreferences::table()."
-                        WHERE identifiable_id = OLD.id AND id_preference IN (
+                        WHERE identifiable_id = OLD.id AND preference_id IN (
                             SELECT id FROM ".PgLarasettingCreateTablePreferences::table()."
-                            WHERE id_domain = __identifiable_domain_id
+                            WHERE domain_id = __identifiable_domain_id
                         );
                     END IF;
 
                     IF __do_create THEN
-                        INSERT INTO ".PgLarasettingCreateTableIdentifiablePreferences::table()."(identifiable_id, id_preference, preference_value, identifiable_model)(
+                        INSERT INTO ".PgLarasettingCreateTableIdentifiablePreferences::table()."(identifiable_id, preference_id, preference_value, identifiable_model)(
                             SELECT 
                                 NEW.id, 
                                 ".PgLarasettingCreateTablePreferences::table().".id,
                                 ".PgLarasettingCreateTablePreferences::table().".default,
                                 __identifiable_domain_model 
                             FROM ".PgLarasettingCreateTablePreferences::table()."
-                            WHERE id_domain = __identifiable_domain_id 
+                            WHERE domain_id = __identifiable_domain_id 
                         );
                     END IF;
 

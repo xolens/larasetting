@@ -3,11 +3,12 @@
 namespace Xolens\PgLarasetting\App\Repository;
 
 use Xolens\PgLarasetting\App\Model\Setting;
-use SettingManagementContract\Repository\SettingRepoContract;
+use Xolens\LarasettingContract\App\Repository\Contract\SettingRepositoryContract;
+use Xolens\PgLarautil\App\Repository\AbstractWritableRepository;
 
-class SettingRepository implements SettingRepoContract
+class SettingRepository extends AbstractWritableRepository implements SettingRepositoryContract
 {
-    public static function model(){
+    public function model(){
         return Setting::class;
     }
     

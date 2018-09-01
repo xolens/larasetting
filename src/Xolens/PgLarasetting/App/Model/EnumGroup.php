@@ -5,10 +5,9 @@ namespace Xolens\PgLarasetting\App\Model;
 use Illuminate\Database\Eloquent\Model;
 
 use PgLarasettingCreateTableEnumGroups;
-use SettingManagementContract\Model\EnumGroupContract;
 
 
-class EnumGroup extends Model implements EnumGroupContract
+class EnumGroup extends Model
 {
     public $timestamps = false;
 
@@ -28,14 +27,14 @@ class EnumGroup extends Model implements EnumGroupContract
      */
     protected $table;
     
-    function __construct() {
+    function __construct(array $attributes = []) {
         $this->table = PgLarasettingCreateTableEnumGroups::table();
-        parent::__construct();
+        parent::__construct($attributes);
     }
     
     public function enumItems()
     {
-        return $this->hasMany('Xolens\PgLarasetting\App\Model\EnumItem','id_enum_group');
+        return $this->hasMany('Xolens\PgLarasetting\App\Model\EnumItem','enum_group_id');
     }
 
     public function getId(){
