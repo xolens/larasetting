@@ -10,7 +10,7 @@
     "require": {
         "xolens/pglarautil": "1.0.0",
         "xolens/larautil-contract": "1.0.0",
-        "xolens/larasetting-contract": "dev-master"
+        "xolens/larasetting-contract": "1.0.0"
     },
     "require-dev": {
         "orchestra/testbench": "~3.4.0"
@@ -25,12 +25,6 @@
             "providers": [
                 "PgLarasetting\\PgLarasettingServiceProvider"
             ]
-        }
-    },
-    "repositories": {
-        "local": {
-            "type": "path",
-            "url": "/var/www/repositories/xolens.laravel/local/*"
         }
     }
 }
