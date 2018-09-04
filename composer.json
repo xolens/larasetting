@@ -26,5 +26,15 @@
                 "PgLarasetting\\PgLarasettingServiceProvider"
             ]
         }
-    }
+    },
+    "repositories": [{
+        "type": "git",
+        "url": "https://github.com/xolens/larasetting-contract"
+    }, {
+        "type": "git",
+        "url": "https://github.com/xolens/larautil-contract"
+    }, {
+        "type": "git",
+        "url": "https://github.com/xolens/pglarautil"
+    }]
 }
