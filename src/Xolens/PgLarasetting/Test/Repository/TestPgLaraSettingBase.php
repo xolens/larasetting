@@ -18,7 +18,6 @@ abstract class TestPgLaraSettingBase extends TestCase
 
     protected function getPackageProviders($app): array{
         return [
-            'Xolens\PgLarautil\PgLarautilServiceProvider',
             'Xolens\PgLarasetting\PgLarasettingServiceProvider'
         ];
     }

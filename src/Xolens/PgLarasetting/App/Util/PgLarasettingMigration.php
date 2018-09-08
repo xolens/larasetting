@@ -8,14 +8,14 @@ use PgLarautilCreateDatabaseLogTriggerFunction;
 abstract class PgLarasettingMigration extends AbstractPgLarasettingMigration 
 {
     public static function tablePrefix(){
-        return config('pglarasetting.database_table_prefix');
+        return config('xolens-config.pglarasetting-database_table_prefix');
     }
 
     public static function triggerPrefix(){
-        return config('pglarasetting.database_trigger_prefix');
+        return config('xolens-config.pglarasetting-database_trigger_prefix');
     }
 
     public static function logEnabled(){
-        return config('pglarasetting.enable_database_log');
+        return config('xolens-config.pglarasetting-enable_database_log');
     }
 }
