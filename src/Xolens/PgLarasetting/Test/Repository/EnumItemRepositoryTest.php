@@ -31,8 +31,8 @@ final class EnumItemRepositoryTest extends TestPgLaraSettingBase
         $i = rand(0, 10000);
         $item = $this->repository()->make([
             "enum_group_id"=> $i,
-            "label"=> "label".$i,
-            "value"=> "value".$i,
+            "display"=> "display".$i,
+            "name"=> "name".$i,
         ]);
         $this->assertTrue(true);
     }
@@ -41,15 +41,15 @@ final class EnumItemRepositoryTest extends TestPgLaraSettingBase
 
     public function generateSorter(){
         $sorter = new Sorter();
-        $sorter->asc('label')
-                ->asc('value');
+        $sorter->asc('display')
+                ->asc('name');
         return $sorter;
     }
 
     public function generateFilterer(){
         $filterer = new Filterer();
         $filterer->between('id',[0,14])
-                ->like('label','%tab%');
+                ->like('display','%tab%');
         return $filterer;
     }
 
@@ -61,8 +61,8 @@ final class EnumItemRepositoryTest extends TestPgLaraSettingBase
             $enumGroupId = $this->enumGroupRepo->model()::inRandomOrder()->first()->id;
             $item = $this->repository()->create([
                 "enum_group_id"=> $enumGroupId,
-                "label"=> "label".$i,
-                "value"=> "value".$i,
+                "display"=> "display".$i,
+                "name"=> "name".$i,
             ]);
             $generatedItemsId[] = $item->response()->id;
         }

@@ -11,5 +11,16 @@ class SettingRepository extends AbstractWritableRepository implements SettingRep
     public function model(){
         return Setting::class;
     }
-    
+
+    public function getValue($key){
+        $response = $this->model()::where(Setting::NAME_PROPERTY, $toFind);
+        return $this->returnResponse($response);
+    }
+
+    public function setValue($key, $value){
+        $model = $this->model();
+        $data = [Setting::VALUE_PROPERTY=> $value];
+        $response =  $model::where(Setting::NAME_PROPERTY, $key)->update($data);
+        return $this->returnResponse($response);
+    }
 }

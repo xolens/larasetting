@@ -8,6 +8,9 @@ use PgLarasettingCreateTableSettings;
 
 class Setting extends Model
 {
+    public const NAME_PROPERTY = 'name';
+    public const VALUE_PROPERTY = 'value';
+
     public $timestamps = false;
 
     /**

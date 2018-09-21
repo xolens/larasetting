@@ -18,7 +18,7 @@ class EnumItem extends Model
      * @var array
      */
     protected $fillable = [
-        'id','label','value','enum_group_id'
+        'id','name','display','description','enum_group_id'
     ];
 
     /**

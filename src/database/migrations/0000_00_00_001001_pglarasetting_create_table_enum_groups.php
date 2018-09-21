@@ -27,8 +27,8 @@ class PgLarasettingCreateTableEnumGroups extends PgLarasettingMigration
         Schema::create(self::table(), function (Blueprint $table) {
             $table->increments('id');
             $table->string('name')->unique();
+            $table->string('display');
             $table->string('description')->nullable();
-            $table->string('default')->nullable();
         });
         if(self::logEnabled()){
             self::registerForLog();

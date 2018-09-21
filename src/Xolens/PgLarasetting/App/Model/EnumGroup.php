@@ -17,7 +17,7 @@ class EnumGroup extends Model
      * @var array
      */
     protected $fillable = [
-        'id','name','description','default'
+        'id','name','display','description'
     ];
 
     /**

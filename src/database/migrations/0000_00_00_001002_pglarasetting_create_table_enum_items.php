@@ -26,10 +26,11 @@ class PgLarasettingCreateTableEnumItems extends PgLarasettingMigration
     {
         Schema::create(self::table(), function (Blueprint $table) {
             $table->increments('id');
-            $table->string('label');
-            $table->string('value')->nullable();
+            $table->string('name');
+            $table->string('display');
+            $table->string('description')->nullable();
             $table->integer('enum_group_id')->index();
-            $table->unique(['label', 'enum_group_id']);
+            $table->unique(['name', 'enum_group_id']);
         });
         if(self::logEnabled()){
             self::registerForLog();
