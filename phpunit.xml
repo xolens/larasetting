@@ -14,7 +14,7 @@
     </php>
     <testsuites>
         <testsuite name="reset-migration">
-            <file>src/Xolens/PgLarasetting/Test/ResetMigrationTest.php</file>
+            <file>src/Xolens/PgLarasetting/Test/CleanSchemaTest.php</file>
         </testsuite> 
         <testsuite name="test-package">
             <file>src/Xolens/PgLarasetting/Test/Repository/SettingRepositoryTest.php</file>
