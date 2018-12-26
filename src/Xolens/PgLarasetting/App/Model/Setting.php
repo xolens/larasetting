@@ -19,7 +19,7 @@ class Setting extends Model
      * @var array
      */
     protected $fillable = [
-        'id','name','value','public'
+        'id','name','value','display_value','value_list','public'
     ];
 
     /**

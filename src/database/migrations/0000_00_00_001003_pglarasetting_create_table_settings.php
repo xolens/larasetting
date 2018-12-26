@@ -28,6 +28,8 @@ class PgLarasettingCreateTableSettings extends PgLarasettingMigration
             $table->increments('id');
             $table->string('name')->unique();
             $table->string('value')->nullable();
+            $table->string('display_value')->nullable();
+            $table->string('value_list');
             $table->boolean('public')->default(false);
         });
         if(self::logEnabled()){
