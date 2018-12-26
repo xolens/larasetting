@@ -3,7 +3,7 @@
 namespace Xolens\PgLarasetting\App\Repository;
 
 use Xolens\PgLarasetting\App\Model\IdentifiablePreference;
-use Xolens\LarasettingContract\App\Repository\Contract\IdentifiablePreferenceRepositoryContract;
+use Xolens\LarasettingContract\App\Contract\Repository\IdentifiablePreferenceRepositoryContract;
 use Xolens\PgLarautil\App\Repository\AbstractWritableRepository;
 use Xolens\LarautilContract\App\Util\Model\Sorter;
 use Xolens\LarautilContract\App\Util\Model\Filterer;

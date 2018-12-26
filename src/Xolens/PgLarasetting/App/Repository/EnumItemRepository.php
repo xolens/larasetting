@@ -3,7 +3,7 @@
 namespace Xolens\PgLarasetting\App\Repository;
 
 use Xolens\PgLarasetting\App\Model\EnumItem;
-use Xolens\LarasettingContract\App\Repository\Contract\EnumItemRepositoryContract;
+use Xolens\LarasettingContract\App\Contract\Repository\EnumItemRepositoryContract;
 use Xolens\PgLarautil\App\Repository\AbstractWritableRepository;
 use Xolens\LarautilContract\App\Util\Model\Sorter;
 use Xolens\LarautilContract\App\Util\Model\Filterer;
