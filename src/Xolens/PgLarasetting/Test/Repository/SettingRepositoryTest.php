@@ -5,8 +5,8 @@ namespace Xolens\PgLarasetting\Test\Repository;
 use Xolens\PgLarasetting\App\Repository\SettingRepository;
 use Xolens\PgLarasetting\App\Model\Setting;
 
-use Xolens\LarautilContract\App\Util\Model\Sorter;
-use Xolens\LarautilContract\App\Util\Model\Filterer;
+use Xolens\PgLarautil\App\Util\Model\Sorter;
+use Xolens\PgLarautil\App\Util\Model\Filterer;
 
 
 final class SettingRepositoryTest extends TestPgLaraSettingBase
@@ -30,6 +30,8 @@ final class SettingRepositoryTest extends TestPgLaraSettingBase
         $item = $this->repository()->make([
             "name"=> "name".$i,
             "value"=> "value".$i,
+            "display_value"=> "display_value".$i,
+            "value_list"=> "value_list".$i,
             "public"=> $trueInt==1,
         ]);
         $this->assertTrue(true);
@@ -60,6 +62,8 @@ final class SettingRepositoryTest extends TestPgLaraSettingBase
             $item = $this->repository()->create([
                 "name"=> "name".$i,
                 "value"=> "value".$i,
+                "display_value"=> "display_value".$i,
+                "value_list"=> "value_list".$i,
                 "public"=> $trueInt==1,
             ]);
             $generatedItemsId[] = $item->response()->id;

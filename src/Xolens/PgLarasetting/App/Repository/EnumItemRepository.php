@@ -3,10 +3,10 @@
 namespace Xolens\PgLarasetting\App\Repository;
 
 use Xolens\PgLarasetting\App\Model\EnumItem;
-use Xolens\LarasettingContract\App\Contract\Repository\EnumItemRepositoryContract;
+use Xolens\PgLarasetting\App\Repository\EnumItemRepositoryContract;
 use Xolens\PgLarautil\App\Repository\AbstractWritableRepository;
-use Xolens\LarautilContract\App\Util\Model\Sorter;
-use Xolens\LarautilContract\App\Util\Model\Filterer;
+use Xolens\PgLarautil\App\Util\Model\Sorter;
+use Xolens\PgLarautil\App\Util\Model\Filterer;
 
 class EnumItemRepository extends AbstractWritableRepository implements EnumItemRepositoryContract
 {

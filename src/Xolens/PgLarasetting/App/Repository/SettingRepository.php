@@ -3,7 +3,7 @@
 namespace Xolens\PgLarasetting\App\Repository;
 
 use Xolens\PgLarasetting\App\Model\Setting;
-use Xolens\LarasettingContract\App\Contract\Repository\SettingRepositoryContract;
+use Xolens\PgLarasetting\App\Repository\SettingRepositoryContract;
 use Xolens\PgLarautil\App\Repository\AbstractWritableRepository;
 
 class SettingRepository extends AbstractWritableRepository implements SettingRepositoryContract

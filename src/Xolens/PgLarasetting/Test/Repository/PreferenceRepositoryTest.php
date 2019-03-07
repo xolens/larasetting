@@ -6,8 +6,8 @@ use Xolens\PgLarasetting\App\Repository\PreferenceRepository;
 use Xolens\PgLarasetting\App\Repository\DomainRepository;
 use Xolens\PgLarasetting\App\Model\Preference;
 
-use Xolens\LarautilContract\App\Util\Model\Sorter;
-use Xolens\LarautilContract\App\Util\Model\Filterer;
+use Xolens\PgLarautil\App\Util\Model\Sorter;
+use Xolens\PgLarautil\App\Util\Model\Filterer;
 
 final class PreferenceRepositoryTest extends TestPgLaraSettingBase
 {

@@ -8,9 +8,7 @@
         "email": "xolens.official@gmail.com"
     }],
     "require": {
-        "xolens/pglarautil": "dev-master",
-        "xolens/larautil-contract": "dev-master",
-        "xolens/larasetting-contract": "dev-master"
+        "xolens/pglarautil": "dev-master"
     },
     "require-dev": {
         "orchestra/testbench": "~3.4.0"

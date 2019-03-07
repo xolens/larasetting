@@ -3,10 +3,10 @@
 namespace Xolens\PgLarasetting\App\Repository;
 
 use Xolens\PgLarasetting\App\Model\Preference;
-use Xolens\LarasettingContract\App\Contract\Repository\PreferenceRepositoryContract;
+use Xolens\PgLarasetting\App\Repository\PreferenceRepositoryContract;
 use Xolens\PgLarautil\App\Repository\AbstractWritableRepository;
-use Xolens\LarautilContract\App\Util\Model\Sorter;
-use Xolens\LarautilContract\App\Util\Model\Filterer;
+use Xolens\PgLarautil\App\Util\Model\Sorter;
+use Xolens\PgLarautil\App\Util\Model\Filterer;
 
 class PreferenceRepository extends AbstractWritableRepository implements PreferenceRepositoryContract
 {

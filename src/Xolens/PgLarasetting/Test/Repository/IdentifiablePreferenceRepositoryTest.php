@@ -6,8 +6,8 @@ use Xolens\PgLarasetting\App\Repository\IdentifiablePreferenceRepository;
 use Xolens\PgLarasetting\App\Repository\PreferenceRepository;
 use Xolens\PgLarasetting\App\Model\IdentifiablePreference;
 
-use Xolens\LarautilContract\App\Util\Model\Sorter;
-use Xolens\LarautilContract\App\Util\Model\Filterer;
+use Xolens\PgLarautil\App\Util\Model\Sorter;
+use Xolens\PgLarautil\App\Util\Model\Filterer;
 
 final class IdentifiablePreferenceRepositoryTest extends TestPgLaraSettingBase
 {

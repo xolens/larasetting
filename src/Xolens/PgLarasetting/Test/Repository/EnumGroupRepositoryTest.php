@@ -6,8 +6,8 @@ use Xolens\PgLarasetting\App\Repository\EnumGroupRepository;
 use Xolens\PgLarasetting\App\Model\EnumGroup;
 
 use Carbon\Carbon;
-use Xolens\LarautilContract\App\Util\Model\Sorter;
-use Xolens\LarautilContract\App\Util\Model\Filterer;
+use Xolens\PgLarautil\App\Util\Model\Sorter;
+use Xolens\PgLarautil\App\Util\Model\Filterer;
 final class EnumGroupRepositoryTest extends TestPgLaraSettingBase
 {
     /**
