@@ -21,12 +21,12 @@
     "extra": {
         "laravel": {
             "providers": [
-                "PgLarasetting\\PgLarasettingServiceProvider"
+                "Xolens\\PgLarasetting\\PgLarasettingServiceProvider"
             ]
         }
     },
     "repositories": [{
-        "type": "path",
-        "url": "/var/www/repositories/xolens.laravel/local/*"
+        "url": "https://github.com/xolens/pglarautil.git",
+        "type": "git"
     }]
 }
